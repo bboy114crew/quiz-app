@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+}
+#quizContainer {
+    margin: auto;
+    width: 30%;
+}
+#buttonBox {
+    overflow: auto;
+    margin: auto;
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#quizContainer {
+    border: solid black 1px;
+    border-radius: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 0.5em;
+    text-align: left;
+
+}
+
+button {
+    display: block;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+.inline {
+    display: inline;
+}
